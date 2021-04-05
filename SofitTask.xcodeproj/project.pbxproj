@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18366D7F261B6135005E982F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366D7E261B6135005E982F /* AppDelegate.swift */; };
+		18366D81261B6135005E982F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366D80261B6135005E982F /* SceneDelegate.swift */; };
+		18366D88261B6136005E982F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18366D87261B6136005E982F /* Assets.xcassets */; };
+		18366D96261B6136005E982F /* SofitTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366D95261B6136005E982F /* SofitTaskTests.swift */; };
+		18366DA1261B6136005E982F /* SofitTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366DA0261B6136005E982F /* SofitTaskUITests.swift */; };
+		18366DAF261B6142005E982F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366DAE261B6142005E982F /* ViewController.swift */; };
+		18366DB1261B6151005E982F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18366DB0261B6151005E982F /* Main.storyboard */; };
+		18366DB3261B615B005E982F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18366DB2261B615B005E982F /* LaunchScreen.storyboard */; };
+		18366DB5261B6187005E982F /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366DB4261B6187005E982F /* Custom.swift */; };
+		18366DB9261B619F005E982F /* SelectCharactersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366DB6261B619F005E982F /* SelectCharactersVC.swift */; };
+		18366DBA261B619F005E982F /* AddNewPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366DB7261B619F005E982F /* AddNewPlayerVC.swift */; };
+		18366DBB261B619F005E982F /* PlayGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366DB8261B619F005E982F /* PlayGameVC.swift */; };
+		18366DBD261B61A7005E982F /* PlayersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18366DBC261B61A7005E982F /* PlayersCollectionViewCell.swift */; };
+		18366DBF261B61B2005E982F /* 0f3e99c79ef6b328809281c1580cd413.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18366DBE261B61B2005E982F /* 0f3e99c79ef6b328809281c1580cd413.gif */; };
+		61CC9FBE30FD1009EF94C8D4 /* Pods_SofitTask_SofitTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226C8499EADA08CC30749A36 /* Pods_SofitTask_SofitTaskUITests.framework */; };
+		83F0F2BBDD1C7B4796815D76 /* Pods_SofitTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB173DEE33BCEAC1E99A8C /* Pods_SofitTaskTests.framework */; };
+		E2015722AA4AAD50437F320A /* Pods_SofitTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC4ECCBACECE61218022D6F /* Pods_SofitTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18366D92261B6136005E982F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18366D73261B6135005E982F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18366D7A261B6135005E982F;
+			remoteInfo = SofitTask;
+		};
+		18366D9D261B6136005E982F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18366D73261B6135005E982F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18366D7A261B6135005E982F;
+			remoteInfo = SofitTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18366D7B261B6135005E982F /* SofitTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SofitTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18366D7E261B6135005E982F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18366D80261B6135005E982F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18366D87261B6136005E982F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18366D8C261B6136005E982F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18366D91261B6136005E982F /* SofitTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SofitTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18366D95261B6136005E982F /* SofitTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofitTaskTests.swift; sourceTree = "<group>"; };
+		18366D97261B6136005E982F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18366D9C261B6136005E982F /* SofitTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SofitTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18366DA0261B6136005E982F /* SofitTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofitTaskUITests.swift; sourceTree = "<group>"; };
+		18366DA2261B6136005E982F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18366DAE261B6142005E982F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18366DB0261B6151005E982F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18366DB2261B615B005E982F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18366DB4261B6187005E982F /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		18366DB6261B619F005E982F /* SelectCharactersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCharactersVC.swift; sourceTree = "<group>"; };
+		18366DB7261B619F005E982F /* AddNewPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPlayerVC.swift; sourceTree = "<group>"; };
+		18366DB8261B619F005E982F /* PlayGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameVC.swift; sourceTree = "<group>"; };
+		18366DBC261B61A7005E982F /* PlayersCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersCollectionViewCell.swift; sourceTree = "<group>"; };
+		18366DBE261B61B2005E982F /* 0f3e99c79ef6b328809281c1580cd413.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 0f3e99c79ef6b328809281c1580cd413.gif; sourceTree = "<group>"; };
+		226C8499EADA08CC30749A36 /* Pods_SofitTask_SofitTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SofitTask_SofitTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309577B4E2183C1E3FA36755 /* Pods-SofitTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofitTask.release.xcconfig"; path = "Target Support Files/Pods-SofitTask/Pods-SofitTask.release.xcconfig"; sourceTree = "<group>"; };
+		391C9026C704F9B5CAAE793F /* Pods-SofitTask-SofitTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofitTask-SofitTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-SofitTask-SofitTaskUITests/Pods-SofitTask-SofitTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EFEBCE04AA47814E2C1CAF4 /* Pods-SofitTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofitTaskTests.release.xcconfig"; path = "Target Support Files/Pods-SofitTaskTests/Pods-SofitTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B041EC2DA158EF6A9462798 /* Pods-SofitTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofitTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-SofitTaskTests/Pods-SofitTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CC4ECCBACECE61218022D6F /* Pods_SofitTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SofitTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		717AB5D6559DA6F2B883C7F6 /* Pods-SofitTask-SofitTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofitTask-SofitTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-SofitTask-SofitTaskUITests/Pods-SofitTask-SofitTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE8BD778D3D01302F2800BB0 /* Pods-SofitTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofitTask.debug.xcconfig"; path = "Target Support Files/Pods-SofitTask/Pods-SofitTask.debug.xcconfig"; sourceTree = "<group>"; };
+		B2EB173DEE33BCEAC1E99A8C /* Pods_SofitTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SofitTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18366D78261B6135005E982F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2015722AA4AAD50437F320A /* Pods_SofitTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18366D8E261B6136005E982F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F0F2BBDD1C7B4796815D76 /* Pods_SofitTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18366D99261B6136005E982F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC9FBE30FD1009EF94C8D4 /* Pods_SofitTask_SofitTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18366D72261B6135005E982F = {
+			isa = PBXGroup;
+			children = (
+				18366D7D261B6135005E982F /* SofitTask */,
+				18366D94261B6136005E982F /* SofitTaskTests */,
+				18366D9F261B6136005E982F /* SofitTaskUITests */,
+				18366D7C261B6135005E982F /* Products */,
+				71C104743A8FBD5DB9DE6C8F /* Pods */,
+				BA008F2588F50732E3BF7651 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18366D7C261B6135005E982F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18366D7B261B6135005E982F /* SofitTask.app */,
+				18366D91261B6136005E982F /* SofitTaskTests.xctest */,
+				18366D9C261B6136005E982F /* SofitTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18366D7D261B6135005E982F /* SofitTask */ = {
+			isa = PBXGroup;
+			children = (
+				18366DC0261B61BB005E982F /* Delegates */,
+				18366DC1261B61C6005E982F /* CustomClass */,
+				18366DC2261B61D6005E982F /* ViewControllers */,
+				18366DB0261B6151005E982F /* Main.storyboard */,
+				18366D87261B6136005E982F /* Assets.xcassets */,
+				18366DB2261B615B005E982F /* LaunchScreen.storyboard */,
+				18366D8C261B6136005E982F /* Info.plist */,
+				18366DBE261B61B2005E982F /* 0f3e99c79ef6b328809281c1580cd413.gif */,
+			);
+			path = SofitTask;
+			sourceTree = "<group>";
+		};
+		18366D94261B6136005E982F /* SofitTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				18366D95261B6136005E982F /* SofitTaskTests.swift */,
+				18366D97261B6136005E982F /* Info.plist */,
+			);
+			path = SofitTaskTests;
+			sourceTree = "<group>";
+		};
+		18366D9F261B6136005E982F /* SofitTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18366DA0261B6136005E982F /* SofitTaskUITests.swift */,
+				18366DA2261B6136005E982F /* Info.plist */,
+			);
+			path = SofitTaskUITests;
+			sourceTree = "<group>";
+		};
+		18366DC0261B61BB005E982F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				18366D7E261B6135005E982F /* AppDelegate.swift */,
+				18366D80261B6135005E982F /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		18366DC1261B61C6005E982F /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				18366DB4261B6187005E982F /* Custom.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		18366DC2261B61D6005E982F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18366DAE261B6142005E982F /* ViewController.swift */,
+				18366DB7261B619F005E982F /* AddNewPlayerVC.swift */,
+				18366DB8261B619F005E982F /* PlayGameVC.swift */,
+				18366DB6261B619F005E982F /* SelectCharactersVC.swift */,
+				18366DC3261B61DF005E982F /* PlayersCollectionViewCell */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18366DC3261B61DF005E982F /* PlayersCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18366DBC261B61A7005E982F /* PlayersCollectionViewCell.swift */,
+			);
+			path = PlayersCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		71C104743A8FBD5DB9DE6C8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BD778D3D01302F2800BB0 /* Pods-SofitTask.debug.xcconfig */,
+				309577B4E2183C1E3FA36755 /* Pods-SofitTask.release.xcconfig */,
+				391C9026C704F9B5CAAE793F /* Pods-SofitTask-SofitTaskUITests.debug.xcconfig */,
+				717AB5D6559DA6F2B883C7F6 /* Pods-SofitTask-SofitTaskUITests.release.xcconfig */,
+				5B041EC2DA158EF6A9462798 /* Pods-SofitTaskTests.debug.xcconfig */,
+				3EFEBCE04AA47814E2C1CAF4 /* Pods-SofitTaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA008F2588F50732E3BF7651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CC4ECCBACECE61218022D6F /* Pods_SofitTask.framework */,
+				226C8499EADA08CC30749A36 /* Pods_SofitTask_SofitTaskUITests.framework */,
+				B2EB173DEE33BCEAC1E99A8C /* Pods_SofitTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18366D7A261B6135005E982F /* SofitTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18366DA5261B6136005E982F /* Build configuration list for PBXNativeTarget "SofitTask" */;
+			buildPhases = (
+				C242AB519F80DC9E776F6EC1 /* [CP] Check Pods Manifest.lock */,
+				18366D77261B6135005E982F /* Sources */,
+				18366D78261B6135005E982F /* Frameworks */,
+				18366D79261B6135005E982F /* Resources */,
+				5D0835C9C390F0A57854DAB3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SofitTask;
+			productName = SofitTask;
+			productReference = 18366D7B261B6135005E982F /* SofitTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18366D90261B6136005E982F /* SofitTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18366DA8261B6136005E982F /* Build configuration list for PBXNativeTarget "SofitTaskTests" */;
+			buildPhases = (
+				5B95C7BE4C5982556A5B398F /* [CP] Check Pods Manifest.lock */,
+				18366D8D261B6136005E982F /* Sources */,
+				18366D8E261B6136005E982F /* Frameworks */,
+				18366D8F261B6136005E982F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18366D93261B6136005E982F /* PBXTargetDependency */,
+			);
+			name = SofitTaskTests;
+			productName = SofitTaskTests;
+			productReference = 18366D91261B6136005E982F /* SofitTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18366D9B261B6136005E982F /* SofitTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18366DAB261B6136005E982F /* Build configuration list for PBXNativeTarget "SofitTaskUITests" */;
+			buildPhases = (
+				F704D5927698F3F525298C13 /* [CP] Check Pods Manifest.lock */,
+				18366D98261B6136005E982F /* Sources */,
+				18366D99261B6136005E982F /* Frameworks */,
+				18366D9A261B6136005E982F /* Resources */,
+				BA2DAF2F5B7936FA925749B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18366D9E261B6136005E982F /* PBXTargetDependency */,
+			);
+			name = SofitTaskUITests;
+			productName = SofitTaskUITests;
+			productReference = 18366D9C261B6136005E982F /* SofitTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18366D73261B6135005E982F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18366D7A261B6135005E982F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					18366D90261B6136005E982F = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 18366D7A261B6135005E982F;
+					};
+					18366D9B261B6136005E982F = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 18366D7A261B6135005E982F;
+					};
+				};
+			};
+			buildConfigurationList = 18366D76261B6135005E982F /* Build configuration list for PBXProject "SofitTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18366D72261B6135005E982F;
+			productRefGroup = 18366D7C261B6135005E982F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18366D7A261B6135005E982F /* SofitTask */,
+				18366D90261B6136005E982F /* SofitTaskTests */,
+				18366D9B261B6136005E982F /* SofitTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18366D79261B6135005E982F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18366DB3261B615B005E982F /* LaunchScreen.storyboard in Resources */,
+				18366DB1261B6151005E982F /* Main.storyboard in Resources */,
+				18366D88261B6136005E982F /* Assets.xcassets in Resources */,
+				18366DBF261B61B2005E982F /* 0f3e99c79ef6b328809281c1580cd413.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18366D8F261B6136005E982F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18366D9A261B6136005E982F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B95C7BE4C5982556A5B398F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SofitTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D0835C9C390F0A57854DAB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SofitTask/Pods-SofitTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SofitTask/Pods-SofitTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SofitTask/Pods-SofitTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2DAF2F5B7936FA925749B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SofitTask-SofitTaskUITests/Pods-SofitTask-SofitTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SofitTask-SofitTaskUITests/Pods-SofitTask-SofitTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SofitTask-SofitTaskUITests/Pods-SofitTask-SofitTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C242AB519F80DC9E776F6EC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SofitTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F704D5927698F3F525298C13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SofitTask-SofitTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18366D77261B6135005E982F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18366DBA261B619F005E982F /* AddNewPlayerVC.swift in Sources */,
+				18366DBD261B61A7005E982F /* PlayersCollectionViewCell.swift in Sources */,
+				18366DB9261B619F005E982F /* SelectCharactersVC.swift in Sources */,
+				18366DAF261B6142005E982F /* ViewController.swift in Sources */,
+				18366D7F261B6135005E982F /* AppDelegate.swift in Sources */,
+				18366DBB261B619F005E982F /* PlayGameVC.swift in Sources */,
+				18366DB5261B6187005E982F /* Custom.swift in Sources */,
+				18366D81261B6135005E982F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18366D8D261B6136005E982F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18366D96261B6136005E982F /* SofitTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18366D98261B6136005E982F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18366DA1261B6136005E982F /* SofitTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18366D93261B6136005E982F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18366D7A261B6135005E982F /* SofitTask */;
+			targetProxy = 18366D92261B6136005E982F /* PBXContainerItemProxy */;
+		};
+		18366D9E261B6136005E982F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18366D7A261B6135005E982F /* SofitTask */;
+			targetProxy = 18366D9D261B6136005E982F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18366DA3261B6136005E982F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18366DA4261B6136005E982F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18366DA6261B6136005E982F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8BD778D3D01302F2800BB0 /* Pods-SofitTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SofitTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sofit.Task.SofitTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18366DA7261B6136005E982F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309577B4E2183C1E3FA36755 /* Pods-SofitTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SofitTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sofit.Task.SofitTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18366DA9261B6136005E982F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B041EC2DA158EF6A9462798 /* Pods-SofitTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SofitTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sofit.Task.SofitTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SofitTask.app/SofitTask";
+			};
+			name = Debug;
+		};
+		18366DAA261B6136005E982F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFEBCE04AA47814E2C1CAF4 /* Pods-SofitTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SofitTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sofit.Task.SofitTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SofitTask.app/SofitTask";
+			};
+			name = Release;
+		};
+		18366DAC261B6136005E982F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391C9026C704F9B5CAAE793F /* Pods-SofitTask-SofitTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SofitTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sofit.Task.SofitTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SofitTask;
+			};
+			name = Debug;
+		};
+		18366DAD261B6136005E982F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717AB5D6559DA6F2B883C7F6 /* Pods-SofitTask-SofitTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SofitTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sofit.Task.SofitTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SofitTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18366D76261B6135005E982F /* Build configuration list for PBXProject "SofitTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18366DA3261B6136005E982F /* Debug */,
+				18366DA4261B6136005E982F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18366DA5261B6136005E982F /* Build configuration list for PBXNativeTarget "SofitTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18366DA6261B6136005E982F /* Debug */,
+				18366DA7261B6136005E982F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18366DA8261B6136005E982F /* Build configuration list for PBXNativeTarget "SofitTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18366DA9261B6136005E982F /* Debug */,
+				18366DAA261B6136005E982F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18366DAB261B6136005E982F /* Build configuration list for PBXNativeTarget "SofitTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18366DAC261B6136005E982F /* Debug */,
+				18366DAD261B6136005E982F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18366D73261B6135005E982F /* Project object */;
+}

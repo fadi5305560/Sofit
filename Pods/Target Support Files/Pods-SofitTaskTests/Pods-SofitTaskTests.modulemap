@@ -1,0 +1,6 @@
+framework module Pods_SofitTaskTests {
+  umbrella header "Pods-SofitTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
