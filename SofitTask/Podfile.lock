@@ -1,0 +1,28 @@
+PODS:
+  - iOSDropDown (0.3.4)
+  - JGProgressHUD (2.2)
+  - Networking (5.1.0)
+  - SwiftGifOrigin (1.7.0)
+
+DEPENDENCIES:
+  - iOSDropDown
+  - JGProgressHUD
+  - Networking
+  - SwiftGifOrigin (~> 1.7.0)
+
+SPEC REPOS:
+  trunk:
+    - iOSDropDown
+    - JGProgressHUD
+    - Networking
+    - SwiftGifOrigin
+
+SPEC CHECKSUMS:
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  Networking: 85b2a0c2d3b6eb548f4eec9880f5f3c49e6b0959
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+
+PODFILE CHECKSUM: fbf301fd2bff0b5ccef0e72b0137e6c1cc2736eb
+
+COCOAPODS: 1.8.4
